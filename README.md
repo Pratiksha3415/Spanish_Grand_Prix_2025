@@ -11,6 +11,7 @@ Welcome to the Spanish Grand Prix 2025 Prediction Project, where we build two di
   
 📁 File Structure
 ├── f1_cache/                              # Practice session cache
+
 ├── Spanish_GP_2025/                       # Utility folder
 ├── data_fetcher_2025_spanish_gp.py       # Download FP1-FP3 data
 ├── preprocess_fpdata_for_prediction.py   # Clean and preprocess data
