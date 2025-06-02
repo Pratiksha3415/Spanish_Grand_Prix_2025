@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # === Setup ===
-RAW_DATA_DIR = "/F1_FuturePrediction_2025/data_fetching"
+RAW_DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "f1_cache", "2025")"
 OUTPUT_FILE = "/clean_data/cleaned_data_2025_with_positions.csv"
 YEAR_FILTER = "2025"
 
